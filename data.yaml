@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Grape', 'Leaf', 'Mealybug']
+
+roboflow:
+  workspace: grape-n5yol
+  project: mealybug-b8wfq
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/grape-n5yol/mealybug-b8wfq/dataset/8
